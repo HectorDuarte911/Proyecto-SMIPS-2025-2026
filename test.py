@@ -9,8 +9,6 @@ verbose_level_all = 4
 verbose_level_compile_detail = 3
 verbose_level_test_detail = 2
 verbose_level_test_basic_detail = 1
-
-
 def print_verbose(verbose_level_required: int, *args):
     if verbose_level >= verbose_level_required:
         print(*args)
